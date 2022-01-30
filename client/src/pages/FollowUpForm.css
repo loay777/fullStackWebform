@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/matrix');
+
+.recordPage{
+    margin: 2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh-80px); */
+}
+
+.recordForm{
+    width: fit-content;
+    block-size: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.recordForm input {
+    width: 97%;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+label{
+    color: white;
+    font-family: Impact, fantasy;
+
+}
+
+textarea{
+    width:  97%;
+    height: 70px;
+    font-size: 20px;
+}
+
+button{
+    margin: 20px;
+    background-color: rgb(92, 255, 43);
+    font-size: 20px;
+    font-family: Impact, fantasy;
+    width: 80px;
+    
+}
+
+
